@@ -35,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 album.save();
             }
         });
+        Button updateData = (Button) findViewById(R.id.update_data);
+        updateData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
     }
 }
