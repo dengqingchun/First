@@ -32,6 +32,8 @@
     	</list>
     -->
     <list>
+        <mapping class="com.example.second.litepal.Album" />
+        <mapping class="com.example.second.litepal.Song" />
     </list>
 
     <!--
