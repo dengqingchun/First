@@ -4,9 +4,10 @@ import android.database.sqlite.SQLiteDatabase;
 
 import org.litepal.LitePal;
 import org.litepal.annotation.Column;
-import org.litepal.crud.LitePalSupport;
+import org.litepal.crud.DataSupport;
 
-public class Song extends LitePalSupport {
+
+public class Song extends DataSupport {
 
     @Column(nullable = false)
     private String name;
